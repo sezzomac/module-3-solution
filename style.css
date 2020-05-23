@@ -1,4 +1,42 @@
+
 .navbar {
 	width: 100%;
+	border: 1px solid black;
 	border-radius: 0px;
+	padding: 0px;
+	margin-bottom: -2px;
+	background-color: #727E7D;
+	box-shadow: none;
+}
+.navbar-default .navbar-brand {
+	font-size: 30px;
+	color: black;
+}
+#collapsable-nav {
+	background-color: #CFE1DF;
+	padding-top : 0px;
+	border: 1px solid black;
+	width: 100vw;
+}
+.header {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: black;
+}
+hr {
+	border: 1px solid black;
+	margin: 10px;
+}
+h2 {
+	font-size: 20px;
+}
+#main-text {
+	background-color: #727E7D;
+}
+@media (max-width: 767px) {
+	#main-text {
+	margin: 35px;	
+	}
 }
